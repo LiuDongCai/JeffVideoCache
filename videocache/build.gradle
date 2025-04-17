@@ -36,7 +36,8 @@ dependencies {
     implementation "com.squareup.okhttp3:okhttp:3.12.1"
     //下载器，支持断点续传
     //implementation 'com.coolerfall:android-http-download-manager:1.6.3'
-    implementation project(":downloadlib")
+//    implementation project(":downloadlib")
+    implementation 'com.github.LiuDongCai:downloadlib:1.0.2'
 }
 
 afterEvaluate {
@@ -47,7 +48,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.LiuDongCai'
                 artifactId = 'JeffVideoCache'
-                version = '1.0.1'
+                version = '1.0.2'
             }
         }
     }
