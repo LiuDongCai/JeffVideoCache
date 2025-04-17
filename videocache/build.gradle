@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.library'
+    id 'maven-publish'
 }
 
 android {
@@ -36,4 +37,18 @@ dependencies {
     //下载器，支持断点续传
     //implementation 'com.coolerfall:android-http-download-manager:1.6.3'
     implementation project(":downloadlib")
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.LiuDongCai'
+                artifactId = 'JeffVideoCache'
+                version = '1.0.0'
+            }
+        }
+    }
 }
