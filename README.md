@@ -32,7 +32,7 @@ allprojects {
 在demo中直接引用
 ```
 dependencies {
-    implementation 'com.github.LiuDongCai:JeffVideoCache:1.0.1'
+    implementation 'com.github.LiuDongCai:JeffVideoCache:1.0.3'
 }
 ```
 

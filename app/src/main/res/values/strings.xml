@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">JeffVideoCache</string>
-    <string name="m3u8Url">https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/v9/prog_index.m3u8</string>
+<!--    <string name="m3u8Url">https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/v9/prog_index.m3u8</string>-->
+    <string name="m3u8Url">https://video.591.com.tw/debug/target/hls/union/2025/03/10/mobile/10418-254693.m3u8</string>
 </resources>

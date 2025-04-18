@@ -75,6 +75,8 @@ public class ExoPlayerImpl extends BasePlayerImpl {
         } else {
             mExoPlayer.setSeekParameters(SeekParameters.NEXT_SYNC);
         }
+        // 循环
+        mExoPlayer.setRepeatMode(Player.REPEAT_MODE_ALL);
     }
 
     @Override
